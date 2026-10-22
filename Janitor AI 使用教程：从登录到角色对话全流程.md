@@ -2,7 +2,7 @@
 
 那么新手该如何快速上手Janitor AI？本文将从基础操作开始，介绍 Janitor AI 的注册方法、角色聊天流程、API 配置方式及常见注意事项，帮助你快速上手。
 
-  ![](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/28813e6c067f48589c8be8bbba67c2c4~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5bCP5oqA5LiA5p6a:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjExNzAxODI4OTk3MTMwNSJ9&rk3s=e9ecf3d6&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1792752199&x-orig-sign=pZNOnDqUnaXNbJsVE7f6hWoebb4%3D)
+ <img width="513" height="338" alt="屏幕截图 2026-10-22 171409" src="https://github.com/user-attachments/assets/1749c9ca-33c9-4523-9a32-a678266072b5" />
 
 ## **一、** **Janitor AI 是什么？** **主要功能与适用人群介绍**
 
@@ -31,7 +31,7 @@ Janitor AI 的主要功能包括：
 
 第一步：在IPFoxy内选择合适的代理IP类型，获取目标地区的住宅代理。
 
- ![](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/09c919f315434882a8dbe8736edc882b~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5bCP5oqA5LiA5p6a:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjExNzAxODI4OTk3MTMwNSJ9&rk3s=e9ecf3d6&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1792752199&x-orig-sign=E5LN4rvNowsTfpjgp7m%2BTj2G5%2Bw%3D)
+<img width="956" height="499" alt="屏幕截图 2026-10-22 173645" src="https://github.com/user-attachments/assets/20370de6-e6d9-46af-87fd-9f3184441fbb" />
 
 第二步：由于Chrome本身没有内置代理配置，需要借助例如IPFoxy Proxy Manager这样的插件完成，安装插件后，可以将IPFoxy账号信息填入到插件内。
 
@@ -39,7 +39,7 @@ Janitor AI 的主要功能包括：
 
 第四步：打开在Janitor AI登录页面，选择登录方式完成注册登录即可。
 
-![](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/857c252c25c24e8da22ec82286abd25f~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5bCP5oqA5LiA5p6a:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjExNzAxODI4OTk3MTMwNSJ9&rk3s=e9ecf3d6&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1792752199&x-orig-sign=h2Jwi%2Bmg19mUCfHZmJIeO5SVRTI%3D)
+<img width="950" height="524" alt="屏幕截图 2026-10-22 182910" src="https://github.com/user-attachments/assets/0754da3b-7b19-4e17-91d9-31edf5e1e1b5" />
 
 ## **三、** **Janitor AI** **使用教程：** **从角色** **对话** **到配置 API 的完整** **指南**
 
@@ -49,8 +49,7 @@ Janitor AI 的主要功能包括：
 
 进入Janitor AI首页后，你会看到大量带标签的角色卡。可以按分类筛选，也可以直接搜索关键词。不同角色通常具有不同的性格、背景故事、互动主题和开场白。开始聊天前，可以先查看角色介绍，判断其设定是否符合自己的偏好。
 
-如果现有角色无法满足需求，也可以尝试创建专属角色。点击页面右上角，进入创造页面，根据提供的编辑选项，填写角色名称、人物背景、性格特点和开场白等信息。角色描述越清晰，越有助于模型理解人物设定与互动场景。![](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/6062c08efdad465fbd3db60c77b382fa~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5bCP5oqA5LiA5p6a:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjExNzAxODI4OTk3MTMwNSJ9&rk3s=e9ecf3d6&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1792752199&x-orig-sign=H83XMUGjyQ8ZYSBrx6xjYCt4l7g%3D)
-
+如果现有角色无法满足需求，也可以尝试创建专属角色。点击页面右上角，进入创造页面，根据提供的编辑选项，填写角色名称、人物背景、性格特点和开场白等信息。角色描述越清晰，越有助于模型理解人物设定与互动场景。
 ### **2. 与 AI 角色进行聊天**
 
 选择角色后，进入对应的聊天界面，在输入框中发送第一条消息即可开始互动。开场白不必过于复杂，可以直接表达对话内容，也可以补充场景和动作描述，让 AI 更容易理解当前情境。
@@ -72,7 +71,7 @@ Janitor AI 的主要功能包括：
 -   进入Janitor AI对话角色的 API Settings，选择Provider，填入配置名称、模型名称、代理URL和API Key
 -   保存后刷新页面测试是否生效
 
-![](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/0d5a297be04d427b98cfe45d72979f72~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5bCP5oqA5LiA5p6a:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjExNzAxODI4OTk3MTMwNSJ9&rk3s=e9ecf3d6&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1792752199&x-orig-sign=0%2Fpx1eTBGsQAk83yUOYJO1b%2FK1c%3D)
+<img width="956" height="533" alt="屏幕截图 2026-10-22 165750" src="https://github.com/user-attachments/assets/691cb482-81f5-4f56-948f-dc3b3d6a09ef" />
 
 配置本身并不复杂，容易出错的地方通常是模型名称大小写不一致、API Key粘贴时带了空格，或者混淆了不同提供商的URL。
 
