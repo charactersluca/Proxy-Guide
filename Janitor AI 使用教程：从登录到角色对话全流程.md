@@ -1,0 +1,123 @@
+想找一个能自由定制角色、对话不被轻易打断的AI角色扮演平台，很多人会搜到Janitor AI。但真到上手时，从注册账号、选择角色到配置 AI 模型，每一步都可能存在疑问。
+
+那么新手该如何快速上手Janitor AI？本文将从基础操作开始，介绍 Janitor AI 的注册方法、角色聊天流程、API 配置方式及常见注意事项，帮助你快速上手。
+
+  ![](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/28813e6c067f48589c8be8bbba67c2c4~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5bCP5oqA5LiA5p6a:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjExNzAxODI4OTk3MTMwNSJ9&rk3s=e9ecf3d6&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1792752199&x-orig-sign=pZNOnDqUnaXNbJsVE7f6hWoebb4%3D)
+
+## **一、** **Janitor AI 是什么？** **主要功能与适用人群介绍**
+
+Janitor AI 是一个以 AI 角色聊天和互动叙事为主要特色的平台。与一般的问答型 AI 不同，它更注重角色设定、情境互动和连续对话，用户可以围绕特定人物、故事背景或虚构场景展开交流。
+
+Janitor AI 的主要功能包括：
+
+-    AI 角色聊天： 浏览不同类型的角色，与 AI 进行日常交流、情节互动或角色扮演。
+-   自定义角色： 根据自己的创意设置角色名称、背景故事、性格特点及开场白。
+-   个性化互动： 通过角色设定、用户 Persona 等功能，让对话更贴合自己的偏好。
+-   模型选择与配置： 根据平台当前支持的选项使用内置模型，或在符合条件时连接第三方 AI 模型。
+
+对于喜欢角色扮演、互动故事和创意写作的用户来说，Janitor AI 可以提供更具情境感的聊天体验。需要注意的是，实际可用功能、模型和使用限制可能随平台更新而变化。
+
+## **二、如何** **登录** **Janitor AI？** **登录** **Janitor AI** **需要准备什么？**
+
+正式开始聊天前，需要先完成账号登录，Janitor AI支持多种登录方式，如Chrome账号、邮箱、X、Discord等。 
+
+需要注意的是，无论是Janitor AI的访问和对话请求，还是Google/X等账号运营，对IP异常变动都比较敏感，如果频繁切换网络、代理或出口IP，或者使用公用机房IP，不仅容易导致AI请求失败、会话中断，甚至触发平台的风控限制导致封禁。
+
+因此为了让登录环境更加稳定、真实，可以给Chrome登录环境配置独享住宅IP，提高环境的可信度与稳定性。例如IPFoxy提供的纯净静态住宅IP，因其真实独享的特性，适合账号稳定运营场景的使用。
+
+可以用Chrome开启独立Profile，并搭配谷歌代理插件 IPFoxy Proxy Manager完成IP配置，保证AI登录账号的稳定运行与调用。
+
+具体方法可参考下列步骤：
+
+第一步：在IPFoxy内选择合适的代理IP类型，获取目标地区的住宅代理。
+
+ ![](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/09c919f315434882a8dbe8736edc882b~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5bCP5oqA5LiA5p6a:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjExNzAxODI4OTk3MTMwNSJ9&rk3s=e9ecf3d6&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1792752199&x-orig-sign=E5LN4rvNowsTfpjgp7m%2BTj2G5%2Bw%3D)
+
+第二步：由于Chrome本身没有内置代理配置，需要借助例如IPFoxy Proxy Manager这样的插件完成，安装插件后，可以将IPFoxy账号信息填入到插件内。
+
+第三步：保存信息后，IPFoxy Proxy Manager会自动同步账号下的代理IP，找到所需要使用的住宅IP并开启，连接成功即代表Chrome已处于该IP环境。 
+
+第四步：打开在Janitor AI登录页面，选择登录方式完成注册登录即可。
+
+![](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/857c252c25c24e8da22ec82286abd25f~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5bCP5oqA5LiA5p6a:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjExNzAxODI4OTk3MTMwNSJ9&rk3s=e9ecf3d6&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1792752199&x-orig-sign=h2Jwi%2Bmg19mUCfHZmJIeO5SVRTI%3D)
+
+## **三、** **Janitor AI** **使用教程：** **从角色** **对话** **到配置 API 的完整** **指南**
+
+完成注册并进入平台后，就可以开始探索角色、创建自己的角色，并根据需要调整聊天设置。
+
+### **1. 选择标签或创建专属角色**
+
+进入Janitor AI首页后，你会看到大量带标签的角色卡。可以按分类筛选，也可以直接搜索关键词。不同角色通常具有不同的性格、背景故事、互动主题和开场白。开始聊天前，可以先查看角色介绍，判断其设定是否符合自己的偏好。
+
+如果现有角色无法满足需求，也可以尝试创建专属角色。点击页面右上角，进入创造页面，根据提供的编辑选项，填写角色名称、人物背景、性格特点和开场白等信息。角色描述越清晰，越有助于模型理解人物设定与互动场景。![](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/6062c08efdad465fbd3db60c77b382fa~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5bCP5oqA5LiA5p6a:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjExNzAxODI4OTk3MTMwNSJ9&rk3s=e9ecf3d6&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1792752199&x-orig-sign=H83XMUGjyQ8ZYSBrx6xjYCt4l7g%3D)
+
+### **2. 与 AI 角色进行聊天**
+
+选择角色后，进入对应的聊天界面，在输入框中发送第一条消息即可开始互动。开场白不必过于复杂，可以直接表达对话内容，也可以补充场景和动作描述，让 AI 更容易理解当前情境。
+
+例如，在角色扮演对话中，可以使用引号表达人物说的话，并用星号标记动作或环境描述：
+
+-    对话示例："你好，很高兴见到你。"
+-   动作示例：*推开房门，环顾了一下房间。*
+
+如果对某条回复不满意，点击消息旁的 Swipe，系统会基于同一上下文重新生成一条回复，直到出现你满意的走向。想要获得更连贯的互动体验，可以在对话中保持人物行为和背景信息的一致性。如果 AI 忘记了重要设定，也可以在后续消息中适当补充，而不必每次都重新开始对话。
+
+### **3. 如何配置 API？**
+
+当内置模型的消息额度或对话质量不能满足需求时，接入第三方API是常见做法。Janitor AI支持通过OpenAI、Clould等提供商接入外部模型。
+
+以OpenAI为例，核心步骤是：
+
+-   在OpenAI生成API Key
+-   进入Janitor AI对话角色的 API Settings，选择Provider，填入配置名称、模型名称、代理URL和API Key
+-   保存后刷新页面测试是否生效
+
+![](https://p0-xtjj-private.juejin.cn/tos-cn-i-73owjymdk6/0d5a297be04d427b98cfe45d72979f72~tplv-73owjymdk6-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg5bCP5oqA5LiA5p6a:q75.awebp?policy=eyJ2bSI6MywidWlkIjoiMjExNzAxODI4OTk3MTMwNSJ9&rk3s=e9ecf3d6&x-orig-authkey=f32326d3454f2ac7e96d3d06cdbb035152127018&x-orig-expires=1792752199&x-orig-sign=0%2Fpx1eTBGsQAk83yUOYJO1b%2FK1c%3D)
+
+配置本身并不复杂，容易出错的地方通常是模型名称大小写不一致、API Key粘贴时带了空格，或者混淆了不同提供商的URL。
+
+## **四、** **Janitor AI 注意事项** **：** **账号安全、API费用与内容管理**
+
+### **1. 保护账号个人信息与 API Key**
+
+API Key 相当于访问模型服务的凭证，不应公开发布，也不要随意粘贴到不可信的网站、脚本或第三方工具中。如果怀疑密钥已经泄露，应尽快按照服务商的指引撤销或更换。
+
+此外，角色聊天中也应避免输入真实密码、支付信息、身份证件等敏感资料。使用第三方模型或其他连接服务前，建议先了解其隐私政策和数据处理方式。
+
+### **2. 留意模型使用限制与费用**
+
+Janitor AI 平台的功能和限制，与第三方模型服务的使用规则并不完全相同。即使平台提供某种内置聊天方式，也不意味着所有外部模型调用都免费。
+
+使用第三方模型服务服务前，应确认对应模型的收费方式、免费额度、调用限制及账户余额要求。模型价格和可用性可能变化，具体以服务商当前公布的信息为准。对于按量计费的 API，建议设置合理的预算或消费提醒，避免产生预期之外的费用。
+
+### **3. 注意内容管理与未成年人保护**
+
+不同角色和模型可能具有不同的内容规则。使用平台前，应了解其社区规范和适用年龄要求，并遵守所在地法律法规。
+
+如果平台提供内容过滤、屏蔽或偏好设置，可以根据个人需求进行调整。未成年人应使用适龄的 AI 服务，并在家长或监护人的指导下使用。不要试图通过更改网络环境来规避平台的年龄限制或安全规则。
+
+## **五、 FAQ**
+
+### **1. Janitor AI 可以免费使用吗？**
+
+是否免费取决于平台当前提供的功能、所选模型及相关使用规则。使用内置模型和连接第三方 API 的费用可能不同。开始使用前，应确认当前页面的限制说明，以及外部模型服务商是否收费。
+
+### **2. Janitor AI 注册不了怎么办？**
+
+首先检查网站是否可以正常访问、网络连接是否稳定，以及注册页面是否存在临时故障。随后确认所选登录方式和验证信息是否正确。
+
+如果问题与当前网络或 IP 环境有关，可以尝试调整网络连接；如果仍然失败，应根据具体错误提示进一步排查，而不是反复提交注册信息。
+
+### **3. Janitor AI 一定需要配置 API 吗？**
+
+不一定。是否需要配置 API，取决于平台当前支持的内置模型和你的使用需求。如果内置模型可以正常使用，可以先直接开始聊天；只有在需要连接外部模型或平台要求进行相关设置时，才需要按照对应服务商的文档完成配置。
+
+### **4. 为什么 Janitor AI 可以打开，却无法与角色聊天？**
+
+网站可以打开，并不代表模型服务一定正常。可能的原因包括模型服务暂时不可用、API Key 无效、接口地址或模型名称填写错误、账户额度不足，或请求受到限制。建议先发送一条简单消息进行测试，再根据报错信息逐项排查。
+
+## **六、总结**
+
+Janitor AI 的基本使用流程可以概括为：注册账号、检查访问环境、选择或创建角色、开始聊天，并根据需要配置 AI 模型。对于新手来说，建议先完成基础角色对话，再逐步了解 Persona、模型设置等进阶功能。
+
+如果遇到使用异常，应先判断问题发生在哪个环节：网站无法访问时检查网络与浏览器；聊天无法生成回复时检查模型状态和 API 配置；遇到账号验证问题时则根据页面提示处理。明确问题来源后再采取对应方法，通常比反复更换设置更有效。
